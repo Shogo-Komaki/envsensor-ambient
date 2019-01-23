@@ -28,3 +28,5 @@ while True:
         latest_update = data.tick_last_update
 
     time.sleep(CHECK_SPAN)
+
+print(vars(data))    
